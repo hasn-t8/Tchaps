@@ -1,0 +1,93 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.navbar {
+    display: flex;
+     overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+    padding: 10px;
+   flex-wrap: wrap;
+    gap: 7px;
+  
+    
+}
+
+ .navbar a {
+    
+    background-color: rgb(244, 20, 184);
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 28px 22px;
+    text-decoration: none;
+   
+    
+} 
+
+
+/* Content styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start
+}
+
+.image {
+    width: 100%;
+    max-height: 450px;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: rgb(9, 233, 24);
+}
+
+.list {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.quote {
+    margin-bottom: 10px;
+}
+
+.blockquote {
+    font-style: italic;
+}
+ @media screen and (max-width: 500px) {
+    .navbar a {
+    padding: 18px 12px;
+display: flex;
+flex-wrap: nowrap;
+      flex: 1 0 auto; 
+
+     }
+  }
+ @media screen and (max-width: 410px) {
+    .navbar a {
+        padding: 10px 2px;
+    }
+ 
+}
+
+  
